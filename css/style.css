@@ -60,6 +60,8 @@ body {
 
 .index-content {
   padding: 50px 80px;
+  border: 1px solid black; /*для ориентира, потом удалить*/
+  margin-bottom: 34px;
 }
 
 .index-content-left {
@@ -76,6 +78,7 @@ body {
   margin-top: 65px;
   padding-top: 60px;
   padding-bottom: 40px;
+    border: 1px solid black; /*для ориентира, потом удалить*/
 }
 
 .footer-contacts {
@@ -86,14 +89,16 @@ body {
 
 .footer-social  {
   float: left;
-  width: 180px;
+  width: 240px;
 }
 
 .footer-copyright{
   float: right;
   width: 180px;
+  border: 1px solid black; /*для ориентира, потом удалить*/
 }
 
+/*catalog.html*/
 .filter {
   float: left;
   width: 220px;
@@ -109,4 +114,36 @@ body {
   vertical-align: top;
   margin-right: 20px;
   margin-bottom: 20px;
+}
+
+/*item.html*/
+.item-photo {
+  float: left;
+  width: 460px;
+  font-size: 0;
+  border: 1px solid black; /*для ориентира, потом удалить*/
+}
+
+.item-photo div {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.item-photo div:last-child {
+  margin-right: 0;
+}
+
+.description {
+  float: right;
+  width: 400px;
+  padding: 0 10px;
+  border: 1px solid black; /*для ориентира, потом удалить*/
+}
+
+.description-available span {
+  float: left;
+}
+
+.description-available span:last-child {
+  float: right;
 }

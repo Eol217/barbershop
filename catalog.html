@@ -51,18 +51,22 @@
         <form>
           <fieldset>
             <legend>Производители:</legend>
-              <label><input type="checkbox" name="baxter" checked>baxter of california</label>
-              <label><input type="checkbox" name="nutty">mr natty</label>
-              <label><input type="checkbox" name="suavecito" checked>suavecito</label>
-              <label><input type="checkbox" name="malin">malin+goetz</label>
-              <label><input type="checkbox" name="murray">murray'z</label>
-              <label><input type="checkbox" name="crew" checked>american crew</label>
+              <ul>
+                <li><label><input type="checkbox" name="baxter" checked>baxter of california</label></li>
+                <li><label><input type="checkbox" name="nutty">mr natty</label></li>
+                <li><label><input type="checkbox" name="suavecito" checked>suavecito</label></li>
+                <li><label><input type="checkbox" name="malin">malin+goetz</label></li>
+                <li><label><input type="checkbox" name="murray">murray'z</label></li>
+                <li><label><input type="checkbox" name="crew" checked>american crew</label></li>
+              </ul>
           </fieldset>
           <fieldset>
             <legend>Группы товаров:</legend>
-              <label><input type="radio" name="fat-content" value="1">бритвенные принадлежности</label>
-              <label><input type="radio" name="fat-content" value="2" checked>средства для ухода</label>
-              <label><input type="radio" name="fat-content" value="3">аксессуары</label>
+              <ul>
+                <li><label><input type="radio" name="fat-content" value="1">бритвенные принадлежности</label></li>
+                <li><label><input type="radio" name="fat-content" value="2" checked>средства для ухода</label></li>
+                <li><label><input type="radio" name="fat-content" value="3">аксессуары</label></li>
+              </ul>
           </fieldset>
           <button class="btn" type="button">Показать</button>
         </form>
@@ -146,7 +150,7 @@
             <a class="btn" href="#">Купить</a>
           </div>
         </div>
-        <nav class="paginator">
+        <div class="paginator">
           <ul>
             <li>
               <a class="btn" href="#">1</a>
@@ -161,11 +165,11 @@
               <a class="btn" href="#">4</a>
             </li>
           </ul>
-        </nav>
+        </div>
       </section>
     </main>
     <footer class="main-footer">
-      <div class="container">
+      <div class="container clearfix">
         <section class="footer-contacts">
           Барбершоп "Бородинский"<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
