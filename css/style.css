@@ -9,7 +9,7 @@ body {
   color: #ffffff;
   text-transform: uppercase;
 
-  background: #000000 url("img/body-bg.jpg") no-repeat center top;
+  background: #070707 url("../img/body-bg.jpg") no-repeat center top;
 }
 
 .clearfix::after {
@@ -97,8 +97,8 @@ body {
   width: 18px;
   height: 18px;
 
-  background: #ff0000 url("../img/sprite.png") no-repeat;
-  background-position: -1px -15px;
+  background: url("../img/sprite.png") no-repeat;
+  background-position: -20px -144px;
   opacity: 0.3;
 }
 
@@ -202,7 +202,7 @@ body {
 .news-preview {
   margin: 0;
   padding: 0;
-  padding-right: 35px;
+  padding-right: 75px;
 
   list-style: none;
 }
@@ -404,27 +404,27 @@ body {
 }
 
 .social-btn-vk {
-  background-position: 9px -447px;
+  background-position: -11px -185px;
 }
 
 .social-btn-fb {
-  background-position: 15px -171px;
+  background-position: -5px -10px;
 }
 
 .social-btn-inst {
-  background-position: 12px -313px;
+  background-position: -9px -301px;
 }
 
 .social-btn-vk:hover {
-  background-position: 9px -381px;
+  background-position: -11px -241px;
 }
 
 .social-btn-fb:hover {
-  background-position: 15px -100px;
+  background-position: -5px -72px;
 }
 
 .social-btn-inst:hover {
-  background-position: 12px -242px;
+  background-position: -9px -362px;
 }
 
 /*catalog.html*/

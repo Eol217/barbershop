@@ -1,0 +1,47 @@
+.sprite {
+    background-image: url(data:image/png;base64,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);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-icon-facebook {
+    width: 12px;
+    height: 22px;
+    background-position: -20px -20px;
+}
+
+.sprite-icon-facebook-black {
+    width: 12px;
+    height: 22px;
+    background-position: -20px -82px;
+}
+
+.sprite-icon-login {
+    width: 18px;
+    height: 16px;
+    background-position: -20px -144px;
+}
+
+.sprite-icon-vk {
+    width: 25px;
+    height: 16px;
+    background-position: -20px -200px;
+}
+
+.sprite-icon-vk-black {
+    width: 25px;
+    height: 16px;
+    background-position: -20px -256px;
+}
+
+.sprite-instagram {
+    width: 21px;
+    height: 21px;
+    background-position: -20px -312px;
+}
+
+.sprite-instagram-black {
+    width: 21px;
+    height: 21px;
+    background-position: -20px -373px;
+}
