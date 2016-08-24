@@ -3,12 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>Барбершоп "Бородинский"</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body class="inner-page">
     <header class="main-header">
       <div class="container clearfix">
       	<nav class="main-navigation">
+          <a class="logo-inner" href="index.html" >
+            <img src="img/inner-logo.png" widh='111' height='24' alt='Барбершоп "Бородинский"'>
+          </a>
       	  <ul>
       	  	<li>
       	  	  <a href="">Информация</a>
@@ -19,7 +24,7 @@
       	  	<li>
       	  	  <a href="">Прайс-лист</a>
       	  	</li>
-            <li>
+            <li class="active">
               <a href="">Магазин</a>
             </li>
             <li>
@@ -32,10 +37,11 @@
       	</div>
       </div>
     </header>
+
     <main class="container clearfix">
-      <h1>Набор для путешествий "Baxter of california"</h1>
-      <section class="breadcrumbs">
-        <ul>
+      <div class="inner-page-title">
+        <h1>Набор для путешествий &laquo;Baxter of&nbsp;California&raquo;</h1>
+        <ul class="breadcrumbs">
           <li>
             <a href="index.html">Главная</a>
           </li>
@@ -45,16 +51,25 @@
           <li>
             <a href="#">Средства для ухода</a>
           </li>
-          <li>
+          <li class="current">
             Набор для путешествий "Baxter of california"
           </li>
         </ul>
-      </section>
+      </div>  
+
       <section class="item-photo">
-        <div><img class="photo big" src="img/item-big.jpg" width="460" height="495" alt="#"></div>
-          <div><img class="photo small" src="img/item-small-1.jpg" width="140" height="150" alt="#"></div>
-          <div><img class="photo small" src="img/item-small-2.jpg" width="140" height="150" alt="#"></div>
-          <div><img class="photo small" src="img/item-small-3.jpg" width="140" height="150" alt="#"></div>
+        <div>
+          <img class="photo big" src="img/item-big.jpg" width="460" height="495" alt="#">
+        </div>
+        <div>
+          <img class="photo small" src="img/item-small-1.jpg" width="140" height="150" alt="#">
+        </div>
+        <div>
+          <img class="photo small" src="img/item-small-2.jpg" width="140" height="150" alt="#">
+        </div>
+        <div>
+          <img class="photo small" src="img/item-small-3.jpg" width="140" height="150" alt="#">
+        </div>
       </section>
       <section class="description">
         <div class="description-available clearfix">
@@ -70,7 +85,7 @@
         </div>
         <div class="description-content">
           <span>в набор входят:</span>
-          <ul>
+          <ul class="custom-list-1">
             <li>Средство для умывания (50 мл)</li>
             <li>Увлажняющий крем (50 мл)</li>
             <li>Крем для бритья (50 мл)</li>
@@ -80,6 +95,7 @@
         </div>
       </section>
     </main>
+
     <footer class="main-footer">
       <div class="container clearfix">
         <section class="footer-contacts">
