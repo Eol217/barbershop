@@ -761,6 +761,7 @@ img {
   left: 50%;
   z-index: 30;
 
+  display: none;
   width: 300px;
   margin-left: -230px;
   padding: 50px 80px;
@@ -777,6 +778,7 @@ img {
   left: 50%;
   z-index: 30;
 
+  display: none;
   width: 766px;
   height: 561px;
   margin-top: -280px;
@@ -793,10 +795,20 @@ img {
   left: 0;
   z-index: 20;
 
+  display: none;
   width: 100%;
   height: 100%;
 
   background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content-show {
+  display: block;
+  animation: bounce 0.6s;
+}
+
+.modal-error {
+  animation: shake 0.6s;
 }
 
 .modal-content-close {
@@ -873,6 +885,10 @@ img {
   outline: none;
 }
 
+.login-form input:focus {
+  border: 2px solid #663d15;
+}
+
 .login-form input.icon-user {
   background-image: url(../img/icon-user.png);
   background-repeat: no-repeat;
@@ -946,4 +962,17 @@ img {
 .login-checkbox input[type="checkbox"] +
   .checkbox-indicator::after  {
     transform: rotate(-45deg);
+}
+
+@keyframes bounce {
+  0% {transform: translateY(-2000px);}
+  70% {transform: translateY(30px);}
+  90% {transform: translateY(-10px);}
+  100% {transform: translateY(0);}
+}
+
+@keyframes shake {
+  0%, 100%                 { transform: translateX(0);     }
+  10%, 30%, 50%, 70%, 90%  { transform: translateX(-10px); }
+  20%, 40%, 60%, 80%       { transform: translateX(10px); }
 }

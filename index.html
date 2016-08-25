@@ -92,7 +92,7 @@
             пн - пт: с 10:00 до 22:00<br>
             сб - вс: с 10:00 до 19:00
           </p>
-      	  <a class="btn" href="#">Как проехать</a>
+      	  <a class="btn js-open-map" href="#">Как проехать</a>
       	  <a class="btn" href="#">Обратная связь</a>
       	</div>
       	<div class="index-content-right">
@@ -130,7 +130,7 @@
       </div>
     </footer>
 
-    <div class="modal-content" hidden> <!-- спрятано -->
+    <div class="modal-content">
       <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
       <h2 class="modal-content-title">Личный кабинет</h2>
       <p>Введите свой логин и пароль</p>
@@ -147,11 +147,14 @@
           <button class="btn" type="submit">Войти</button>
         </form>
     </div>
-
-    <div class="modal-content-map" hidden>
+    <div class="modal-content-map">
       <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
-      <div id="yandex-map"></div>
+      <div id="yandex-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043651616!2d30.320894615989012!3d59.938794181876204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1472142843058" width="766" height="561" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
     </div>
-    <div class="modal-overlay" hidden></div>
+    <div class="modal-overlay"></div>
+
+    <script src="js/popup.js"></script>
   </body>
 </html>
